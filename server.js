@@ -5,7 +5,7 @@ const { addRecordController } = require('./src/controllers/add-record-controller
 
 const app = express();
 
-const PORT = 80;
+const PORT = 3000;
 
 app.use(urlencoded({ extended: true }));
 app.use(express.json());
