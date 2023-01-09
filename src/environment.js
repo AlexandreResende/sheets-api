@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   SPREADSHEET_ID: process.env.SPREADSHEET_ID,
   SHEET_ID: process.env.SHEET_ID,
